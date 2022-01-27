@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    display: flex;
+    min-width: 1152px;
+    height: 100vh;
+    
+}
+
+.header{
+    width: 1152vh;
+    height: 67px;
+    background-color: #E5E5E5;
+}
+
+.header-block{
+    display: flex; 
+}
+
+
+
+.image-bank{
+    width: 119px;
+    margin-top: 20.3px;
+    margin-bottom: 12px;
+    margin-left: -10px;
+    margin-left: 130px;
+    
+}
+
+.services{
+    display: flex;
+    margin-top: 27px;
+    margin-left: 83px;
+    
+}
+
+.text-bank{
+    width: 58px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+   
+    letter-spacing: 0.06em;
+    
+
+    
+    color: #000000;
+}
+
+.text-business{
+    width: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    letter-spacing: 0.06em;
+
+    margin-left: 17px;
+    color: #959BA4;
+}
+
+.text-investments{
+    display: flex;
+    width: 94px;
+    height: 19px;
+    left: 381px;
+    top: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    
+    letter-spacing: 0.06em;
+    margin-left: 44px;
+
+    
+    
+
+    color: #959BA4;
+}
+
+.text-insurance{
+    width: 94px;
+    height: 19px;
+   
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+   
+    letter-spacing: 0.06em;
+    margin-left: 45px;
+    color: #959BA4;
+}
+
+.text-mobile{
+    width: 68px;
+    height: 19px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex; 
+    letter-spacing: 0.06em;
+    margin-left: 50px;
+    color: #959BA4;
+}
+
+.text-travels{
+    width: 101px;
+    height: 19px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    
+    letter-spacing: 0.06em;
+    margin-left: 32px;
+    color: #959BA4;
+}
+
+.text-funny{
+    width: 101px;
+    height: 19px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    
+    letter-spacing: 0.06em;
+    margin-left: 48px;
+    color: #959BA4;
+}
+
+.block-sign{
+    width: 78px;
+    height: 43px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 13px;
+    margin-left: 176px;
+
+    
+}
+
+.text-sign{
+    width: 58px;
+    height: 33px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 13px;
+    display: flex;
+    
+    
+    letter-spacing: 0.06em;
+
+    margin-left: 11px;
+    margin-top: 12px;
+
+    color: #000000;
+}
+
+.main{
+    display: flex;
+    position: absolute;
+
+}
+
+.block-main{
+    position: relative;
+    display: flex;
+    margin-top: 145.8px;
+    margin-left: 334px;
+}
+
+.block-text{
+    
+    width: 687px;
+    height: 32px;
+    left: 253px;
+    top: 106px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.left-main{
+    position: absolute;
+    margin-top: 31px;
+}
+
+.block-from{
+    width: 140px;
+    height: 28px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    
+    margin-top: 60px;
+    color: #9F9F9F;
+}
+
+.currency{
+    display: flex;
+    width: 340px;
+    height: 38px;
+
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.vulue-text{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+
+    margin-top: 11px;
+    margin-left: 27px;
+    color: #C6C6C6;
+    
+}
+
+.currency :hover{
+
+    color: white;
+    background-color: #833AE0;
+    
+}
+
+.fromRUB{
+    width: 85.06px;
+    height: 38px;
+
+    border-radius: 3px 0px 0px 3px;
+}
+
+.fromUSD{
+    width: 85.06px;
+    height: 38px;
+}
+
+.fromEUR{
+    width: 85.06px;
+    height: 38px;
+}
+
+.fromGBP{
+    width: 85.06px;
+    height: 38px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.value{
+    width: 340px;
+    height: 135px;
+    
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    margin-top: 26px;
+}
+
+.left-value{
+    width: 204px;
+    height: 40px;
+
+    margin-top: 20px;
+    margin-left: 18px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
+
+input{
+    font-size: 46px;
+    font-weight: bold;
+   
+}
+
+
+.right-main{
+    position: absolute;
+    margin-left: 503px;
+    margin-top: 31px;
+}
+
+.inRUB{
+    width: 85.06px;
+    height: 38px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.inUSD{
+    width: 85.06px;
+    height: 38px;
+}
+
+.inEUR{
+    width: 85.06px;
+    height: 38px;
+}
+
+.inGBP{
+    width: 85.06px;
+    height: 38px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.from-description{
+    width: 199px;
+    height: 28px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    margin-top: 33px;
+    margin-left: 20px;
+    color: #C6C6C6;
+}
+
+.in-description{
+    width: 199px;
+    height: 28px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    margin-top: 33px;
+    margin-left: 20px;
+    color: #C6C6C6;
+}
+
+.right-value{
+    width: 204px;
+    height: 40px;
+
+    margin-top: 20px;
+    margin-left: 18px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+}
