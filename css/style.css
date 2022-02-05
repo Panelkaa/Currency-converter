@@ -239,19 +239,18 @@
     color: #9F9F9F;
 }
 
-.currency{
+.left-currency{
     display: flex;
     width: 340px;
     height: 38px;
-
-
+    
     border: 1px solid #E5E5E5;
     box-sizing: border-box;
     border-radius: 3px;
 }
 
-.vulue-text{
-    
+.right-vulue-text{
+    width: 0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -262,40 +261,39 @@
     margin-top: 11px;
     margin-left: 27px;
     color: #C6C6C6;
+}
+
+.left-vulue-text{
+    width: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+
+    margin-top: 11px;
+    margin-left: 27px;
+    color: #C6C6C6;
+}
+
+.left-currency :hover{
+    background-color: #8d6db8;
+}
+
+.right-currency :hover{
+    background-color: #8d6db8;
+}
+
+.availbaleCurrency{
+    width: 85.06px;
+    height: 38px;
     
 }
 
-.currency :hover{
 
-    color: white;
-    background-color: #833AE0;
-    
-}
 
-.fromRUB{
-    width: 85.06px;
-    height: 38px;
-
-    border-radius: 3px 0px 0px 3px;
-}
-
-.fromUSD{
-    width: 85.06px;
-    height: 38px;
-}
-
-.fromEUR{
-    width: 85.06px;
-    height: 38px;
-}
-
-.fromGBP{
-    width: 85.06px;
-    height: 38px;
-    border-radius: 0px 3px 3px 0px;
-}
-
-.value{
+.block-left-value{
     width: 340px;
     height: 135px;
     
@@ -330,26 +328,21 @@ input{
     margin-top: 31px;
 }
 
-.inRUB{
-    width: 85.06px;
+.right-currency{
+    display: flex;
+    width: 340px;
     height: 38px;
-    border-radius: 3px 0px 0px 3px;
+
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
 }
 
-.inUSD{
-    width: 85.06px;
-    height: 38px;
-}
 
-.inEUR{
+.desiredCurrency{
     width: 85.06px;
     height: 38px;
-}
-
-.inGBP{
-    width: 85.06px;
-    height: 38px;
-    border-radius: 0px 3px 3px 0px;
 }
 
 .from-description{
@@ -384,6 +377,19 @@ input{
     margin-top: 33px;
     margin-left: 20px;
     color: #C6C6C6;
+}
+
+.block-right-value{
+    width: 340px;
+    height: 135px;
+    
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    margin-top: 26px;
+
 }
 
 .right-value{
